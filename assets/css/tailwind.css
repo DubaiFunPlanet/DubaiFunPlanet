@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {@apply body-bg dark:black}
+* {@apply m-0 p-0}
+
+@layer components {
+    .pad {@apply px-[12px] md:px-[98px]}
+    .marginB {@apply mb-[120px]}
+    .trans {@apply transition ease-linear duration-300}
+
+    /* TEXT COLORS START */
+    .gray-text {@apply text-[#7A7A7A]}
+    .black-text {@apply text-[#1B1B1B] dark:white-text}
+    .dark-gold-text {@apply text-[#604B2E]}
+    .gold-text {@apply text-[#8E692D]}
+    .cream-text {@apply text-[#F6E8BF]}
+    .red-text {@apply text-[#FF0000]}
+    .white-text {@apply text-[#F8F8F8]}
+    /* TEXT COLORS STOP */
+
+    /* BACKGROUND COLORS START */
+    .body-bg {@apply bg-[#F8F8F8]}
+    .gray {@apply bg-[#7A7A7A]}
+    .black {@apply bg-[#1B1B1B]}
+    .dark-gold {@apply bg-[#604B2E]}
+    .gold {@apply bg-[#8E692D]}
+    .cream {@apply bg-[#F6E8BF]}
+    .red {@apply bg-[#FF0000]}
+    .white {@apply bg-[#FFFFFF]}
+    .transparent {@apply bg-transparent}
+    .plain-gray {@apply bg-[#D9D9D9]}
+    .paper {@apply bg-[#EFEDE9]}
+    /* BACKGROUND COLORS STOP */
+
+    /* BORDER RADIUS START */
+    .rounded4 {@apply rounded-[4px]}
+    .rounded6 {@apply rounded-[6px]}
+    .rounded8 {@apply rounded-[8px]}
+    .rounded10 {@apply rounded-[10px]}
+    /* BORDER RADIUS STOP */
+
+    /* SECTION BAR START */
+    .bar-text {@apply text-[16px] md:text-[18px] black-text flex flex-col md:flex-row pb-[12px] border-b border-b-[rgba(122,122,122,0.2)]}
+    /* SECTION BAR STOP */
+
+    /* NAVIGATION START */
+    .navLogo {@apply min-w-[60px] max-w-[60px] md:w-[89px]}
+    .links {@apply flex flex-col md:flex-row items-center gap-[20px]}
+    .links li {@apply trans text-[16px] md:text-[18px] black-text hover:gold-text dark:hover:cream-text}
+    .navBar {@apply z-50 plain-gray md:bg-none dark:black h-auto md:h-[100px] px-[12px] py-[20px] md:px-[32px] flex flex-col md:flex-row items-center justify-between gap-[20px]}
+    .navBarMobile {@apply w-full md:w-auto flex items-center justify-between}
+    .menu-times {@apply black-text text-[32px]}
+    .searchBar {@apply flex items-center dark:white-text w-full lg:w-auto}
+    .searchIcons {@apply h-[44px] w-[44px] text-[24px] gray-text dark:white-text rounded-full transparent grid place-items-center}
+    .searchInput {@apply placeholder:gray-text dark:placeholder:white-text pl-[24px] black-text h-[44px] w-full lg:w-[459px] transparent outline-none}
+    /* .active {@apply gold-text} */
+    /* NAVIGATION STOP */
+
+    /* WELCOME TEXT START */
+    .welcomeText {@apply black-text text-center flex flex-col justify-center items-center mt-[80px] mb-[200px]}
+    .mediumHeader {@apply text-[32px] md:text-[60px]}
+    .descriptionHeader {@apply text-[18px] md:text-[24px] gray-text}
+    .largeHeader {@apply text-[60px] md:text-[100px]}
+    .context {@apply gray-text text-[16px] mt-[40px] md:max-w-[640px]}
+    .paragraph {@apply gray-text text-[16px] mt-[20px] md:max-w-[640px]}
+    /* WELCOME TEXT STOP */
+
+    /* CARD STYLE START */
+    .cards {@apply flex flex-col gap-5 marginB}
+    .card {@apply bg-white/10 hover:bg-white/100 trans dark:transparent flex flex-col-reverse md:flex-row w-full lg:max-w-[503px] h-auto md:max-h-[125px] overflow-hidden shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)]}
+    .cardSideA {@apply p-[10px]}
+    .cardTitleText {@apply group-hover:underline dark-gold-text dark:cream-text text-[18px] line-clamp-1}
+    .cardContentText {@apply gray-text dark:white-text text-[14px] mt-[8px] mb-[12px] line-clamp-2}
+    .cardDate {@apply text-[12px] font-semibold gray-text}
+    .cardBtnLabel {@apply text-[12px] font-bold gold-text dark:cream-text hover:cream-text dark:hover:dark-gold-text}
+    .baseButton {@apply trans rounded4 py-[12px] px-[32px] transparent border border-[#F6E8BF] hover:border-[#604B2E] hover:dark-gold dark:hover:cream}
+    .cardSideB {@apply w-full h-[250px] md:max-h-full md:min-w-[161px] md:max-w-[161px] relative}
+    .cardImage {@apply h-full w-full}
+    .cardIcons {@apply absolute left-1 bottom-1 z-40 flex items-center gap-[8px] dark-gold-text}
+    .cardIcon {@apply trans w-[24px] h-[24px] text-[12px] hover:red-text rounded-full body-bg grid place-items-center drop-shadow-[(0px_1px_2px_rgba(0,0,0,0.12))]}
+    /* CARD STYLE STOP */
+
+    /* MEET OUR SPONSORS START */
+    .black-wrapper {@apply black p-[12px] rounded4}
+    /* MEET OUR SPONSORS STOP */
+
+    /* LATEST VIDEOS START */
+    .socialIcon {@apply text-[40px] my-[24px]}
+    .ytd-wrapper {@apply max-w-[207px]}
+    .ytd-image {@apply w-[207px] h-[114px] rounded4 plain-gray relative overflow-hidden}
+    .ytd-overlay {@apply trans bg-black/20 hover:bg-black/5 hover:red-text white-text text-[12px] hover:text-[32px] w-full h-full relative grid place-items-center}
+    .ytd-duration {@apply text-[10px] px-[4px] py-[1px] rounded4 absolute right-1 bottom-1 bg-black/10}
+    .ytd-title {@apply text-[12px] font-semibold gray-text mt-[4px] mb-[16px] line-clamp-2}
+    .ytd-details {@apply text-[10px] gray-text flex items-center justify-between}
+    /* LATEST VIDEOS STOP */
+
+    /* TWITTER START */
+    .twitter-icon-bg {@apply rounded-full black h-[40px] w-[40px] my-[24px] grid place-items-center}
+    .twitter {@apply text-[28px] white-text}
+    .x-wrapper {@apply trans w-full md:max-w-[269px] max-h-[272px] white-text rounded10 p-[8px] border-[1px] border-[rgba(122,122,122,0.20)] hover:border-[rgba(122,122,122,10)] bg-[rgba(239,237,233,0.01)]}
+    .x-handle-container {@apply flex gap-[12px]}
+    .x-avatar {@apply w-[39px] h-[39px] rounded-full plain-gray}
+    .x-name {@apply text-[18px] font-semibold}
+    .x-handle {@apply text-[12px]}
+    .x-content {@apply text-[14px] my-[20px] line-clamp-[7]}
+    .x-details {@apply flex items-center justify-between}
+    .x-icon-sm {@apply h-[14px] w-[14px] rounded-full black grid place-items-center}
+    .x-logo {@apply text-[12px] flex items-center gap-[6px]}
+    .x-date-time {@apply text-[12px] flex gap-[8px]}
+    /* TWITTER STOP */
+
+    /* SEND A MAIL NOW START */
+    .sm-wrapper {@apply flex flex-col justify-start gap-[40px] md:gap-0 md:flex-row md:justify-between md:items-center marginB}
+    /* SEND A MAIL NOW STOP */
+
+    /* FOOTER START */
+    .footer {@apply plain-gray dark:bg-black flex flex-col lg:flex-row justify-center md:justify-between items-center gap-[40px] lg:gap-0 lg:h-[100px] py-[40px] lg:py-0 px-[24px]}
+    .logo-copyright {@apply flex flex-col md:flex-row items-center gap-[24px] md:gap-[56px] dark-gold-text dark:white-text}
+    /* FOOTER STOP */
+
+    /* ABOUT START */
+    .abt-header-wrapper {@apply flex flex-col items-center justify-center}
+    .abt-header {@apply text-[32px] md:text-[60px] text-center my-[120px] max-w-[1068px] black-text}
+    .wwd-wrapper {@apply flex flex-col items-center justify-center gap-[20px] lg:gap-0 p-[18px] md:py-[32px] lg:p-0 lg:grid lg:grid-cols-2 h-auto lg:h-[560px] paper rounded4}
+    .wwd-container {@apply grid place-items-center text-center}
+    .wwd-card-image {@apply mix-blend-luminosity}
+    .wwd-text-container {@apply grid place-items-center text-center}
+    .wwd-title {@apply text-[24px] mb-[40px] dark-gold-text w-auto md:w-[462px] md:max-w-[462px]}
+    .wwd-paragraph {@apply text-[18px] gray-text w-auto md:w-[462px] md:max-w-[462px]}
+    /* ABOUT STOP */
+
+    /* CONTACT START */
+    .contact-icon-wrapper {@apply flex flex-col justify-center md:flex-row gap-[24px] marginB w-full}
+    .contact-icon-container {@apply grid place-items-center}
+    .contact-icons {@apply text-[40px] black-text hover:gold-text dark:white-text dark:hover:gray-text cursor-pointer trans}
+    /* CONTACT STOP */
+
+    /* postPage START */
+    .post-header {@apply dark-gold-text dark:cream-text text-[32px] py-[24px]}
+    .post-paragraph {@apply black-text dark:white-text text-[18px] pb-[20px]}
+    .photo-credit {@apply paper mb-10 w-full text-[14px] text-right dark-gold-text px-4}
+    /* postPage STOP */
+}
