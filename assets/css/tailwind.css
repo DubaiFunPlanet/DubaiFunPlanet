@@ -55,7 +55,6 @@ body {@apply body-bg dark:black}
     .searchBar {@apply flex items-center dark:white-text w-full lg:w-auto}
     .searchIcons {@apply h-[44px] w-[44px] text-[24px] gray-text dark:white-text rounded-full transparent grid place-items-center}
     .searchInput {@apply placeholder:gray-text dark:placeholder:white-text pl-[24px] black-text h-[44px] w-full lg:w-[459px] transparent outline-none}
-    /* .active {@apply gold-text} */
     /* NAVIGATION STOP */
 
     /* WELCOME TEXT START */
@@ -69,7 +68,7 @@ body {@apply body-bg dark:black}
 
     /* CARD STYLE START */
     .cards {@apply flex flex-col gap-5 marginB}
-    .card {@apply bg-white/10 hover:bg-white/100 trans dark:transparent flex flex-col-reverse md:flex-row w-full lg:max-w-[503px] h-auto md:max-h-[125px] overflow-hidden shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)]}
+    .card {@apply bg-white/10 hover:bg-white/100 dark:hover:black trans dark:transparent flex flex-col-reverse md:flex-row w-full lg:max-w-[503px] h-auto md:max-h-[125px] overflow-hidden shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)]}
     .cardSideA {@apply p-[10px]}
     .cardTitleText {@apply group-hover:underline dark-gold-text dark:cream-text text-[18px] line-clamp-1}
     .cardContentText {@apply gray-text dark:white-text text-[14px] mt-[8px] mb-[12px] line-clamp-2}

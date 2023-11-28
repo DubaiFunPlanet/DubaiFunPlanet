@@ -1,8 +1,8 @@
 <template>
     <div>
         <TitleBar
-        label="Today's News |"
-        date="Wednesday, September 2023"
+        label="Latest"
+        date=""
         class="mb-[40px]"
         />
     
@@ -17,7 +17,6 @@
                         </p>
                         <div class="flex justify-between items-end">
                             <p class="cardDate"> {{ post.date }} </p>
-                                <!-- <CardButton label="Read More"/> -->
                         </div>
                     </div>
             

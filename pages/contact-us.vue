@@ -1,5 +1,5 @@
 <template>
     <Contact/>
-    <MeetOurSponsors/>
+    <!-- <MeetOurSponsors/> -->
     <SendMail/>
 </template>

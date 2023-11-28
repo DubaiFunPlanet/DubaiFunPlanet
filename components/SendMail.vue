@@ -5,6 +5,6 @@
         <h1 class="text-[32px] croissant mb-[12px]">Start Exploring</h1>
         <p class="text-[18px] gray-text">For sponsorship, support, and contributions, kindly...</p>
         </div>
-        <CardButton label="Send mail" to=""/>
+        <CardButton label="Send mail" to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtMnZTsPGwhkmNPSQfsHKJnmBLhwvRqRbhPwhnSglNCNzGcCzpPpBHqbzrffwTRDnhGRtrlv"/>
     </div>
 </template>

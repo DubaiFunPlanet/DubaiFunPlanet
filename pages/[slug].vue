@@ -24,9 +24,9 @@
 
         <div>
             <PostCard/>
-            <MeetOurSponsors/>
+            <!-- <MeetOurSponsors/>
             <Youtube/>
-            <Twitter/>
+            <Twitter/> -->
             <SendMail/>
         </div>
     </article>

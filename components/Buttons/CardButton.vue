@@ -12,5 +12,5 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="inline-flex"><button class="cardBtnLabel baseButton" :to="to">{{ label }}</button></div>
+    <NuxtLink :to="to"><div class="inline-flex"><button class="cardBtnLabel baseButton">{{ label }}</button></div></NuxtLink>
 </template>

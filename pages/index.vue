@@ -7,9 +7,9 @@
     />
     
     <PostCard/>
-    <MeetOurSponsors/>
+    <!-- <MeetOurSponsors/>
     <Youtube/>
-    <Twitter/>
+    <Twitter/> -->
     <SendMail/>
 </div>
 </template>
