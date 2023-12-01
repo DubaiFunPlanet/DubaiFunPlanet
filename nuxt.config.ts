@@ -32,4 +32,10 @@ export default ({
   colorMode: {
     classSuffix: ''
   },
+
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/png', href: '/DFPlogo.png' }]
+    }
+  },
 })
