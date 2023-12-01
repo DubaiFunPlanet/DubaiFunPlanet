@@ -7,7 +7,7 @@
             context="Welcome to Dubai Fun Planet, your passport to a world of opulence, entertainment, and luxury in the heart of the United Arab Emirates. Our blog is your trusted companion for exploring the glittering city of Dubai, where every moment is an opportunity to experience the extraordinary."
             />
         </div>
-        <MeetOurSponsors/>
+        <!-- <MeetOurSponsors/> -->
         <WhatWeDo/>
         <SendMail/>
     </div>

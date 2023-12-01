@@ -1,14 +1,14 @@
 <script setup>
-const props = defineProps({
-    label: {
-        type: [String, Number],
-        default: null,
-    },
-    to: {
-        type: [String, Object],
-        default: null,
-    },
-});
+    const props = defineProps({
+        label: {
+            type: [String, Number],
+            default: null,
+        },
+        to: {
+            type: [String, Object],
+            default: null,
+        },
+    });
 </script>
 
 <template>
