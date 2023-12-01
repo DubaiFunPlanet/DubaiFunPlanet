@@ -9,7 +9,20 @@ export default ({
     },
   ],
 
-  modules: ['@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/google-fonts',],
+  modules: ['@nuxtjs/google-adsense', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/google-fonts',],
+
+  googleAdsense: {
+    id: 'ca-pub-4653226074613662',
+    onPageLoad: true,
+    pageLevelAds: true,
+  },
+
+  // publicRuntimeConfig: {
+  //   googleAdsense: {
+  //     id:  process.env.GOOGLE_ADSENSE_ID,
+  //     test: process.env.GOOGLE_ADSENSE_TEST_MODE === 'true',
+  //   },
+  // },
 
   content: {
     // ... options
