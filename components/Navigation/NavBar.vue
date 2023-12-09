@@ -17,12 +17,14 @@
             </div>
             <!-- SEARCH BAR -->
 
-            <div v-if="close === true">
-               <Links class="md:hidden mb-4"/>
-               <dark-mode-toggle-button />
+            <div class="hidden md:flex items-center gap-10">
+            <Links/>
+            <dark-mode-toggle-button />
             </div>
-            <Links class="hidden md:block"/>
-            <dark-mode-toggle-button class="hidden md:block" />
+            <div  v-if="close === true" class="md:hidden flex flex-col gap-5">
+            <Links/>
+            <dark-mode-toggle-button/>
+            </div>
         </div>
     </div>
     
