@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="sticky top-0 z-50 w-full">
         <div class="navBar">
             <div class="navBarMobile">
             <Logo/>
@@ -17,18 +17,22 @@
             </div>
             <!-- SEARCH BAR -->
 
-            <Links v-if="close === true" class="md:hidden"/>
+            <div v-if="close === true">
+               <Links class="md:hidden mb-4"/>
+               <dark-mode-toggle-button />
+            </div>
             <Links class="hidden md:block"/>
-            <dark-mode-toggle-button/>
+            <dark-mode-toggle-button class="hidden md:block" />
         </div>
     </div>
     
-    <div v-if="search.length > 0" class="w-full p-4 md:px-20 absolute top-[100px] bg-gray-100 dark:black h-[280px] overflow-auto">
-        <ContentList path="/blogposts" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
+    <!-- SEARCH RESULT -->
+    <div v-if="search.length > 0" class="searchResult pt-[-80px]">
+        <ContentList path="/" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
             <div class="cards md:grid md:grid-cols-2 lg:grid-cols-3">
                 <div class="card dark:hover:bg-black/20"  v-for="post in list" :key="post._path" v-show="post.title.toLowerCase().includes(search.toLowerCase())">
                     <NuxtLink :to="`/${post.slug}`">
-                        <div class="cardSideA" >
+                        <div class="cardSideA">
                             <h2 class="cardTitleText croissant"> {{ post.title }} </h2>
                             <p class="cardContentText">
                                 {{ post.description }}
@@ -39,6 +43,7 @@
             </div>
         </ContentList>
     </div>
+    <!-- SEARCH RESULT -->
 </template>
 
 <script>

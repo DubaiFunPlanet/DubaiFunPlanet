@@ -27,8 +27,8 @@ export default ({
   content: {
     // ... options
     experimental: {
-      search: true
-    }
+      search: true,
+    },
   },
 
   googleFonts: {

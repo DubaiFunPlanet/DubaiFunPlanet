@@ -5,7 +5,7 @@ date: "Nov 19th, 2023"
 author: "Idris Teslim O."
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com?uuid=6090bbd3-bdcc-5426-8688-495cc850751c&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.75&x=0&y=0&width=1200&height=675"
-slug: "dubai-overcrowded-iphone15-store"
+slug: "foryou/dubai-overcrowded-iphone15-store"
 ---
 
 ![OVERCROWDED APPLE STORE IN DUBAI](https://image.khaleejtimes.com?uuid=6090bbd3-bdcc-5426-8688-495cc850751c&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.75&x=0&y=0&width=1200&height=675){style="width: 100%; height: auto;"}

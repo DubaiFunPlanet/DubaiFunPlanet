@@ -1,21 +1,17 @@
 <template>
     <div>
-    <!-- TOP NEWS -->
-    <div>
         <TitleBar
-        label="Top News"
+        label="Latest"
         date=""
         class="mb-[40px]"
         />
-        <ContentList path="/topnews" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
-            <div class="cards md:grid md:grid-cols-2">
-                <NuxtLink :to="`/${post.slug}`" class="topnewscard group"  v-for="post in list" :key="post._path">
+        <ContentList path="/blogposts" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
+            <div class="cards lg:grid lg:grid-cols-2">
+                <NuxtLink :to="`/${post.slug}`" class="card group"  v-for="post in list" :key="post._path">
                     <!-- side A -->
-                    <div class="dark:topnewscover"></div>
-
-                    <div class="topnewstext">
-                        <h2 class="topnewsTitleText croissant"> {{ post.title }} </h2>
-                        <p class="topnewsContentText">
+                    <div class="cardSideA">
+                        <h2 class="cardTitleText croissant"> {{ post.title }} </h2>
+                        <p class="cardContentText">
                             {{ post.description }}
                         </p>
                         <div class="flex justify-between items-end">
@@ -24,7 +20,7 @@
                     </div>
             
                     <!-- side B -->
-                    <div class="topnewsBgImage">
+                    <div class="cardSideB">
                         <img class="cardImage" :src="post.thumbnail" alt="">
                         <!-- <div class="cardIcons">
                             <div class="cardIcon"><icon name="material-symbols:share"/></div>
@@ -34,13 +30,6 @@
                 </NuxtLink> 
             </div>
         </ContentList>
-    </div>
-
-    <!-- LATEST NEWS-->
-    <latestCard/>
-
-    <!-- FOR YOU -->
-    <ForYou/>
     </div>
 </template>
 

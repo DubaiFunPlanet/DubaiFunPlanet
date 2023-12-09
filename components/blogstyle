@@ -1,0 +1,5 @@
+<!-- LINK -->
+[enter text](enter link){style="text-decoration: underline; color: #8E692D; cursor: pointer;"}
+
+<!-- PICTURE -->
+![](enter link){style="width: 100%; height:auto;"}

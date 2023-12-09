@@ -4,7 +4,7 @@
 
 <template>
     <article class="postPage">
-        <ContentDoc :path="`/blogposts/${slug}`" v-slot="{ doc }">
+        <ContentDoc :path="`/foryou/${slug}`" v-slot="{ doc }">
            <div>
             <header>
             <h2 class="mediumHeader dark:white-text croissant mt-12"> {{ doc.title }} </h2>
