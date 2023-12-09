@@ -32,7 +32,7 @@
     <div v-if="search.length > 0" class="searchResult pt-[-80px] border-b-[4px] border-b-[#604B2E80]">
         <ContentList path="/" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
             <div class="cards md:grid md:grid-cols-2 lg:grid-cols-3">
-                <div class="card dark:hover:bg-black/20"  v-for="post in list" :key="post._path" v-show="post.title.toLowerCase().includes(search.toLowerCase())">
+                <div class="card dark:hover:bg-black/20 overflow-hidden"  v-for="post in list" :key="post._path" v-show="post.title.toLowerCase().includes(search.toLowerCase())">
                     <NuxtLink :to="`/${post.slug}`" class="flex flex-row-reverse items-center gap-2 group">
                         <div class="cardSideA">
                             <h2 class="cardTitleText croissant line-clamp-3 group-hover:underline group-active:underline"> {{ post.title }} </h2>
@@ -41,7 +41,7 @@
                             </p>
                         </div>
                         <div>
-                        <img class="min-w-[140px] h-[100px]" :src="post.thumbnail" alt="">
+                        <img class="min-w-[140px] h-[100px] rounded4" :src="post.thumbnail" alt="">
                         </div>
                     </NuxtLink>
                 </div> 
