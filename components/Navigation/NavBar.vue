@@ -29,16 +29,19 @@
     </div>
     
     <!-- SEARCH RESULT -->
-    <div v-if="search.length > 0" class="searchResult pt-[-80px]">
+    <div v-if="search.length > 0" class="searchResult pt-[-80px] border-b-[4px] border-b-[#604B2E80]">
         <ContentList path="/" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
             <div class="cards md:grid md:grid-cols-2 lg:grid-cols-3">
                 <div class="card dark:hover:bg-black/20"  v-for="post in list" :key="post._path" v-show="post.title.toLowerCase().includes(search.toLowerCase())">
-                    <NuxtLink :to="`/${post.slug}`">
+                    <NuxtLink :to="`/${post.slug}`" class="flex items-center gap-4 group">
                         <div class="cardSideA">
-                            <h2 class="cardTitleText croissant"> {{ post.title }} </h2>
+                            <h2 class="cardTitleText croissant line-clamp-3 group-hover:underline group-active:underline"> {{ post.title }} </h2>
                             <p class="cardContentText">
                                 {{ post.description }}
                             </p>
+                        </div>
+                        <div>
+                        <img class="min-w-[140px] h-[100px]" :src="post.thumbnail" alt="">
                         </div>
                     </NuxtLink>
                 </div> 
