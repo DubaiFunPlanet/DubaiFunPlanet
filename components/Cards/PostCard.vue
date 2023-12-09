@@ -3,7 +3,7 @@
     <!-- TOP NEWS -->
     <div>
         <TitleBar
-        label="Top News"
+        label="Today | Top News"
         date=""
         class="mb-[40px]"
         />

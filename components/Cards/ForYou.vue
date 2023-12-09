@@ -2,7 +2,7 @@
     <!-- FOR YOU -->
     <div>
         <TitleBar
-        label="For you: You may also like"
+        label="For you | You may also like"
         date=""
         class="mb-[40px]"
         />

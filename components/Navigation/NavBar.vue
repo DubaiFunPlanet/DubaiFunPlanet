@@ -3,6 +3,7 @@
         <div class="navBar">
             <div class="navBarMobile">
             <Logo/>
+            <dark-mode-toggle-button class="md:hidden"/>
             <div @click="this.close = !this.close" class="md:hidden">
                 <icon class="menu-times" v-if="close === true" name="iconamoon:sign-times-duotone"/>
                 <icon class="menu-times" v-if="close === false" name="streamline:interface-setting-menu-1-button-parallel-horizontal-lines-menu-navigation-three-hamburger"/>
@@ -21,9 +22,9 @@
             <Links/>
             <dark-mode-toggle-button />
             </div>
+            
             <div  v-if="close === true" class="md:hidden flex flex-col gap-5">
             <Links/>
-            <dark-mode-toggle-button/>
             </div>
         </div>
     </div>
