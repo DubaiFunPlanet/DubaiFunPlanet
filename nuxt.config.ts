@@ -13,8 +13,6 @@ export default ({
 
   googleAdsense: {
     id: 'ca-pub-4653226074613662',
-    onPageLoad: true,
-    pageLevelAds: true,
   },
 
   // publicRuntimeConfig: {
