@@ -11,7 +11,7 @@
    const formatDate = function() {
     return new Date(props.date).toLocaleDateString('en', {
           year: 'numeric',
-          month: 'short',
+          month: 'long',
           day: 'numeric',
         })
 }
@@ -43,8 +43,8 @@ export default {
                 <p> {{ doc.author }} </p>
                 <p>{{ doc.date }}</p>
                 <div class="flex flex-col md:flex-row gap-4">
-                    <span>Posted: {{ formatDate(gitCreatedAt) }}</span>
-                    <span>Updated: {{ formatDate(gitUpdatedAt) }}</span>
+                    <span>Posted: {{ formatDate(doc.gitCreatedAt) }}</span>
+                    <span>Updated: {{ formatDate(doc.gitUpdatedAt) }}</span>
                 </div>
             </div>
             </header>
