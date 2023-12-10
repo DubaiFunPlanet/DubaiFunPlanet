@@ -1,20 +1,20 @@
 <script setup lang="ts">
    const { slug } = useRoute().params;
 
-   const props = defineProps({
-    date: {
-        type: [String, Number],
-        default: null,
-    },
-   })
+//    const props = defineProps({
+//     date: {
+//         type: [String, Number],
+//         default: null,
+//     },
+//    })
    
-   const formatDate = function() {
-    return new Date(props.date).toLocaleDateString('en', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-        })
-}
+//    const formatDate = function() {
+//     return new Date(props.date).toLocaleDateString('en', {
+//           year: 'numeric',
+//           month: 'long',
+//           day: 'numeric',
+//         })
+// }
 </script>
 
 <!-- <script>
@@ -42,10 +42,10 @@ export default {
             <div class="croissant bar-text text-gold-200 md:gap-8 mb-10">
                 <p> {{ doc.author }} </p>
                 <p>{{ doc.date }}</p>
-                <div class="flex flex-col md:flex-row gap-4">
+                <!-- <div class="flex flex-col md:flex-row gap-4">
                     <span>Posted: {{ formatDate(doc.gitCreatedAt) }}</span>
                     <span>Updated: {{ formatDate(doc.gitUpdatedAt) }}</span>
-                </div>
+                </div> -->
             </div>
             </header>
 
