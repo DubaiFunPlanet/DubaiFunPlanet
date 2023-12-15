@@ -20,6 +20,7 @@
                         </p>
                         <div class="flex justify-between items-end">
                             <p class="cardDate"> {{ post.date }} </p>
+                            <!-- <NuxtTime class="cardDate" :datetime="Date.now()" month="long" day="numeric" year="numeric" /> -->
                         </div>
                     </div>
             

@@ -11,7 +11,8 @@
             <h2 class="descriptionHeader my-2"> {{ doc.description }} </h2>
             <div class="croissant bar-text text-gold-200 md:gap-8 mb-10">
                 <p> {{ doc.author }} </p>
-                <p>{{ doc.date }}</p>
+                <p> {{ doc.date }} </p>
+                <!-- <NuxtTime :datetime="Date.now()" second="numeric" month="long" day="numeric" year="numeric" /> -->
             </div>
             </header>
 

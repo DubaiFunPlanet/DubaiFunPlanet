@@ -5,7 +5,7 @@ date: "Nov 27th, 2023"
 author: "Idris Teslim O."
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.greenbiz.com/sites/default/files/styles/16_9_cropped/public/2023-10/COP28-hero.jpg?itok=D4GDajCG"
-slug: "topnews/what-is-cop28-in-dubai"
+slug: "what-is-cop28-in-dubai"
 ---
 
 ![](https://static.euronews.com/articles/stories/07/59/67/08/1920x1280_cmsv2_ca2483e6-9b19-5696-b6d6-36a7147c35b4-7596708.jpg){style="width: 100%; height:auto;"}

@@ -5,7 +5,7 @@ date: "Dec 4th, 2023"
 author: "Idris Teslim O."
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=4035a5eb-e481-405a-b870-9b492a8c879d&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0"
-slug: "topnews/everyone-buying-gold-despite-record-high-price"
+slug: "everyone-buying-gold-despite-record-high-price"
 ---
 
 ![](https://image.khaleejtimes.com/?uuid=4035a5eb-e481-405a-b870-9b492a8c879d&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0){style="width: 100%; height:auto;"}

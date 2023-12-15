@@ -9,11 +9,7 @@ export default ({
     },
   ],
 
-  modules: ['@nuxtjs/google-adsense', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/google-fonts',
-  ['nuxt-content-git', {
-    createdAtName : 'gitCreatedAt',
-    updatedAtName : 'gitUpdatedAt',
-  }],],
+  modules: ['nuxt-time', '@nuxtjs/google-adsense', '@nuxt/content', 'nuxt-icon', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxtjs/google-fonts',],
 
   googleAdsense: {
     id: 'ca-pub-4653226074613662',
