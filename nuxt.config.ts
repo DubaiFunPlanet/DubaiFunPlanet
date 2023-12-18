@@ -46,7 +46,7 @@ export default ({
 
   app: {
     head: {
-      link: [{ rel: 'icon', type: 'image/png', href: '/DFPlogo.png' }]
+      link: [{ rel: 'icon', type: 'image/png', href: '/fpicon.png' }]
     }
   },
 })

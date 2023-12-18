@@ -26,7 +26,7 @@
             
                     <!-- side B -->
                     <div class="topnewsBgImage">
-                        <img class="cardImage" :src="post.thumbnail" alt="">
+                        <img class="cardImage mix-blend-luminosity group-hover:mix-blend-normal group-hover:trans" :src="post.thumbnail" alt="">
                         <!-- <div class="cardIcons">
                             <div class="cardIcon"><icon name="material-symbols:share"/></div>
                             <div class="cardIcon"><icon name="material-symbols:bookmark"/></div>

@@ -2,7 +2,7 @@
 title: "BMW premieres THE ICON, a battery-powered Yacht in Dubai"
 description: "The ICON is an electric watercraft that is elevated by hydrofoils."
 date: "Nov 19th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://static.designboom.com/wp-content/uploads/2023/05/bmw-the-icon-tyde-electric-battery-boat-cannes-designboom-ban.jpg"
 slug: "foryou/dubai-theicon-bmwyatch"

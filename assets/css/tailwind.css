@@ -46,7 +46,7 @@ body {@apply body-bg dark:black}
     /* SECTION BAR STOP */
 
     /* NAVIGATION START */
-    .navLogo {@apply min-w-[60px] max-w-[60px] md:w-[89px]}
+    .navLogo {@apply min-w-[100px] max-w-[100px] md:min-w-[150px]}
     .links {@apply flex flex-col md:flex-row items-center gap-[20px]}
     .links li {@apply trans text-[16px] md:text-[14px] black-text hover:gold-text dark:hover:cream-text}
     .navBar {@apply z-50 plain-gray md:bg-none dark:black h-auto md:h-[70px] px-[12px] py-[20px] md:px-[32px] flex flex-col md:flex-row items-center justify-between gap-[20px]}
@@ -60,8 +60,9 @@ body {@apply body-bg dark:black}
 
     /* WELCOME TEXT START */
     .welcomeText {@apply black-text text-center flex flex-col justify-center items-center mt-[80px] mb-[100px]}
-    .mediumHeader {@apply text-[32px] md:text-[60px]}
-    .descriptionHeader {@apply text-[18px] md:text-[24px] gray-text}
+    .mediumHeader {@apply text-[32px] md:text-[60px] leading-[60px]}
+    .slugHeader {@apply text-[32px] md:text-[44px] leading-[52px] dark:white-text mt-12}
+    .descriptionHeader {@apply text-[18px] md:text-[22px] gray-text pb-4}
     .largeHeader {@apply text-[60px] md:text-[100px]}
     .context {@apply gray-text text-[16px] mt-[40px] md:max-w-[640px]}
     .paragraph {@apply gray-text text-[16px] mt-[20px] md:max-w-[640px]}

@@ -22,7 +22,7 @@
             
                     <!-- side B -->
                     <div class="foryoucardSideB bg-gray-200">
-                        <img class="foryoucardImage" :src="post.thumbnail" alt="">
+                        <img class="foryoucardImage mix-blend-luminosity group-hover:mix-blend-normal group-hover:trans" :src="post.thumbnail" alt="">
                         <!-- <div class="cardIcons">
                             <div class="cardIcon"><icon name="material-symbols:share"/></div>
                             <div class="cardIcon"><icon name="material-symbols:bookmark"/></div>

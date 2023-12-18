@@ -2,7 +2,7 @@
 title: "Despite record-high gold prices, why is everyone buying it?"
 description: "Dubai gold stores' reactions as people flocked to buy yellow metal all across the country amid large crowds and busy shops"
 date: "Dec 4th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=4035a5eb-e481-405a-b870-9b492a8c879d&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0"
 slug: "everyone-buying-gold-despite-record-high-price"

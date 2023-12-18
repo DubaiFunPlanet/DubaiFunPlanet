@@ -3,7 +3,7 @@
         <div class="navBar">
             <div class="navBarMobile">
             <Logo/>
-            <dark-mode-toggle-button class="md:hidden" />
+            <!-- <dark-mode-toggle-button class="md:hidden" /> -->
             <div @click="this.close = !this.close" class="md:hidden">
                 <icon class="menu-times" v-if="close === true" name="iconamoon:sign-times-duotone"/>
                 <icon class="menu-times" v-if="close === false" name="streamline:interface-setting-menu-1-button-parallel-horizontal-lines-menu-navigation-three-hamburger"/>
@@ -22,9 +22,10 @@
             <Links/>
             <dark-mode-toggle-button />
             </div>
-            
+
             <div  v-if="close === true" class="md:hidden flex flex-col gap-5">
             <Links/>
+            <dark-mode-toggle-button />
             </div>
         </div>
     </div>
@@ -42,7 +43,7 @@
                             </p>
                         </div>
                         <div>
-                        <img class="min-w-[140px] h-[100px] rounded4" :src="post.thumbnail" alt="">
+                        <img class="min-w-[140px] h-[100px] rounded4 mix-blend-luminosity group-hover:mix-blend-normal group-hover:trans" :src="post.thumbnail" alt="">
                         </div>
                     </NuxtLink>
                 </div> 

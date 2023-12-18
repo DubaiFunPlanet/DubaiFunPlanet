@@ -2,7 +2,7 @@
 title: "DUBAI: Built-in WiFi and QLED included for in-flight entertainment"
 description: "The Emirate in their new $300 million in-flight entertainment project announces the addition of built-in WiFi and QLED display and next-gen Thales’ AVANT Up system for the BLIND"
 date: "Nov 20th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=0a68ed2e-2935-574a-8788-6efebd868bd6&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.77719&x=0&y=0&width=1500&height=844"
 slug: "dubai-emirate-flight-adds-wifi"

@@ -2,7 +2,7 @@
 title: "Dubai Expensive Water World"
 description: "The Persian Gulf's natural resources are being strained, according to experts, despite the city having invested billions of dollars to supply fresh water to its citizens and tourist attractions."
 date: "Nov 21th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://static01.nyt.com/images/2023/09/29/multimedia/00dubai-water-02-vzbc/00dubai-water-02-vzbc-superJumbo.jpg?quality=75&auto=webp"
 slug: "dubai-costly-water-world"

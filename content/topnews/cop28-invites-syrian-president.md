@@ -2,7 +2,7 @@
 title: "Shocking or Not? COP28 invited Syrian President"
 description: "Syrian President Bashar al-Assad has been invited to the United Nations climate summit by the UAE."
 date: "Dec 4th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://static.euronews.com/articles/stories/07/61/38/84/1920x1322_cmsv2_7ebcb0d1-2444-573f-86e9-246cd40ecbf8-7613884.jpg"
 slug: "topnews/cop28-invites-syrian-president"

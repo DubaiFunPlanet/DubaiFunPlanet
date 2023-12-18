@@ -2,7 +2,7 @@
 title: "iPhone 15 Reaction in UAE stores"
 description: "Dubai residents go wild over 1Phone 15 as the queue at the iPhone stores won't stop adding up."
 date: "Nov 19th, 2023"
-author: "Idris Teslim O."
+author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com?uuid=6090bbd3-bdcc-5426-8688-495cc850751c&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.75&x=0&y=0&width=1200&height=675"
 slug: "foryou/dubai-overcrowded-iphone15-store"
