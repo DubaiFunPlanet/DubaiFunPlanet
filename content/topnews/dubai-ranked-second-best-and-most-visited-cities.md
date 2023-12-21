@@ -2,7 +2,7 @@
 title: "Dubai ranks as the second best tourist destination in the world"
 description: "On a global scale, Paris remained the most attractive city, followed by Dubai, Madrid, Spain, Tokyo, Amsterdam, Berlin, Rome, New York, among others."
 date: "Dec 17th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://img.freepik.com/free-photo/airport-terminal_1417-1456.jpg?w=1800&t=st=1702862278~exp=1702862878~hmac=6e770df723adaacb9146daec15a603db5902f5655bbd73100eea11ee408b8e67"
 slug: "topnews/dubai-ranked-second-best-and-most-visited-cities"

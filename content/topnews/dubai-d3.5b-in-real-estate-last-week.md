@@ -2,7 +2,7 @@
 title: "Dubai real estate recorded billions of dollars in the past week"
 description: "Real estate transactions in Dubai reached $3.5 billion over the past week, including $136.2 million apartment on the Palm Jumeirah"
 date: "Dec 17th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://images.pexels.com/photos/10593605/pexels-photo-10593605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 slug: "topnews/dubai-d3.5b-in-real-estate-last-week"

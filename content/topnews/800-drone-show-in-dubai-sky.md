@@ -2,7 +2,7 @@
 title: "Dubai interesting sky-show with 800-drones"
 description: "At The Beach, JBR, and Bluewaters, the show takes place twice every evening at 8 pm and 10 pm"
 date: "Dec 9th, 2023"
-author: "Fun Planet REF GULF NEWS"
+author: "So Fun Globe REF GULF NEWS"
 tags: ["Blog" , "Title"]
 thumbnail: "https://imagevars.gulfnews.com/2023/12/08/DSF_DoneShow_18c4aa3b5a8_original-ratio.jpg"
 slug: "topnews/800-drone-show-in-dubai-sky"

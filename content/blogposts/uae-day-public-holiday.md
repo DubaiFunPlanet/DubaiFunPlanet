@@ -2,7 +2,7 @@
 title: "Public Holiday Ahead UAE National Day"
 description: "During holiday, remote learning will be adopted by schools ahead of UAE National Day"
 date: "Nov 27th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.timeoutdubai.com/cloud/timeoutdubai/2022/01/19/School-vaccination-2022-1.jpg"
 slug: "uae-day-public-holiday"

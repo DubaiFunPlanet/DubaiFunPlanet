@@ -2,7 +2,7 @@
 title: "What is COP28? What you need to know"
 description: "There will be tens of thousands of people in Dubai in early December for COP28, the United Nations' annual climate summit."
 date: "Nov 27th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.greenbiz.com/sites/default/files/styles/16_9_cropped/public/2023-10/COP28-hero.jpg?itok=D4GDajCG"
 slug: "what-is-cop28-in-dubai"

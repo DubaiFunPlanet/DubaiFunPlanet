@@ -2,7 +2,7 @@
 title: "UAE Official National Day To Hold At EXPO CITY"
 description: "UAE National Day, popularly known as Union Day, is fast approaching. It falls on Saturday, December 2"
 date: "Nov 27th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.timeoutdubai.com/cloud/timeoutdubai/2022/11/30/Expo-Winter-City.jpg"
 slug: "uae-national-day-expo-city"

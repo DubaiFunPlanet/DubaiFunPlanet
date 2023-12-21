@@ -2,7 +2,7 @@
 title: "SHOCKING: Self-driving (taxi) car test by Sheikh Hamdan in Dubai"
 description: "The test follows RTA's announcement to launch Cruising in Dubai in 2022"
 date: "Dec 17th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://gulfbusiness.com/wp-content/uploads/2023/12/rta.jpeg"
 slug: "topnews/self-driving-car-test-in-dubai"

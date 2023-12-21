@@ -2,7 +2,7 @@
 title: "The influence of artificial intelligence on art: Dubai artist Jyo John Mulloor"
 description: "The UAE's leading AI artist has some tips for harnessing the power of imagination with the help of Artificial Intelligence"
 date: "Nov 20th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=314cef0e-aaad-5cdc-a8db-68bb14276695&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0"
 slug: "dubai-ai-artist-john-mulloor"

@@ -2,7 +2,7 @@
 title: "A green future awaits air taxis at COP28 in the UAE"
 description: "An autonomous aircraft from Austria-based Flynow is attracting enthusiasts at Expo City, Dubai"
 date: "Dec 9th, 2023"
-author: "Fun Planet"
+author: "So Fun Globe"
 tags: ["Blog" , "Title"]
 thumbnail: "https://imagevars.gulfnews.com/2023/12/09/Yvonne-Winter_18c4f89db51_large.jpg"
 slug: "topnews/a-green-future-awaits-air-taxis-at-cop28-in-the-uae"
