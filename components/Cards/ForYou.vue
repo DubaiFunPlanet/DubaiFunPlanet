@@ -6,9 +6,9 @@
         date=""
         class="mb-[40px]"
         />
-        <ContentList path="/foryou" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
+        <ContentList path="/" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
             <div class="cards lg:grid lg:grid-cols-2">
-                <NuxtLink :to="`/${post.slug}`" class="foryoucard group"  v-for="post in list" :key="post._path">
+                <NuxtLink :to="`/${post.slug}`" class="foryoucard group" v-show="list.slice(0, 6)[Math.floor(Math.random()*list.length)]" v-for="post in list" :key="post._path">
                     <!-- side A -->
                     <div class="foryoucardSideA">
                         <h2 class="foryouTitleText croissant"> {{ post.title }} </h2>

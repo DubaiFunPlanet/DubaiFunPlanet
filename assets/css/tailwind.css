@@ -55,7 +55,7 @@ body {@apply body-bg dark:black}
     .searchBar {@apply flex items-center dark:white-text w-full lg:w-auto}
     .searchIcons {@apply h-[44px] w-[44px] text-[24px] gray-text dark:white-text rounded-full transparent grid place-items-center}
     .searchInput {@apply placeholder:gray-text placeholder:text-[14px] dark:placeholder:white-text pl-[24px] black-text h-[44px] w-full lg:w-[459px] transparent outline-none}
-    .searchResult {@apply w-full p-4 md:px-20 z-50 sticky top-[140px] md:top-[70px] bg-gray-100 dark:black h-screen md:h-[280px] overflow-auto}
+    .searchResult {@apply w-full p-4 md:px-20 z-50 sticky top-[120px] md:top-[70px] bg-gray-100 dark:black h-screen md:h-[280px] overflow-auto}
     /* NAVIGATION STOP */
 
     /* WELCOME TEXT START */

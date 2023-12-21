@@ -5,7 +5,7 @@ date: "Nov 19th, 2023"
 author: "Steve MacNaull"
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2023/11/1848334_web1_yacht-and-skyline.jpg?w=1920"
-slug: "foryou/dubai-funtour-superyatch"
+slug: "dubai-funtour-superyatch"
 ---
 
 ::post-paragraph

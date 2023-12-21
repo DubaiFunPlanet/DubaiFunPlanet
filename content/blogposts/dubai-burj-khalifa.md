@@ -5,7 +5,7 @@ date: "Nov 19th, 2023"
 author: "Fun Planet"
 tags: ["Blog" , "Title"]
 thumbnail: "/burjK.jpg"
-slug: "foryou/dubai-burj-khalifa"
+slug: "dubai-burj-khalifa"
 ---
 
 ![BURJ KHALIFA](https://lemonacademy.co.uk/wp-content/uploads/2021/10/Adsiz-tasarim-49-1.jpg){style="width: 100%; height:auto;"}

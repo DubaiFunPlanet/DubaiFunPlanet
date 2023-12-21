@@ -33,7 +33,7 @@
     <!-- SEARCH RESULT -->
     <div v-if="search.length > 0" class="searchResult pt-[-80px] border-b-[4px] border-b-[#604B2E80]">
         <ContentList path="/" :query="{ draft:false, sort:[{date: -1}] }" v-slot="{list}">
-            <div class="cards md:grid md:grid-cols-2 lg:grid-cols-3">
+            <div @click="this.search = ''" class="cards md:grid md:grid-cols-2 lg:grid-cols-3">
                 <div class="card dark:hover:bg-black/20 overflow-hidden"  v-for="post in list" :key="post._path" v-show="post.title.toLowerCase().includes(search.toLowerCase())">
                     <NuxtLink :to="`/${post.slug}`" class="flex flex-row-reverse items-center gap-2 group">
                         <div class="cardSideA">
