@@ -46,7 +46,7 @@ body {@apply body-bg dark:black}
     /* SECTION BAR STOP */
 
     /* NAVIGATION START */
-    .navLogo {@apply min-w-[100px] max-w-[100px] md:min-w-[150px]}
+    .navLogo {@apply min-w-[180px] max-w-[180px] md:min-w-[180px]}
     .links {@apply flex flex-col md:flex-row items-center gap-[20px]}
     .links li {@apply trans text-[16px] md:text-[14px] black-text hover:gold-text dark:hover:cream-text}
     .navBar {@apply z-50 plain-gray md:bg-none dark:black h-auto md:h-[70px] px-[12px] py-[20px] md:px-[32px] flex flex-col md:flex-row items-center justify-between gap-[20px]}

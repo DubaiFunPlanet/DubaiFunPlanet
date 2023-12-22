@@ -2,7 +2,7 @@
 title: "Dubai Crown Prince's Office appoints Omar Sultan Al Olama as Director General"
 description: "A new Director General has been appointed for the Dubai Crown Prince's Office by Omar Sultan Al Olama"
 date: "Dec 10th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://www.gulftoday.ae/-/media/gulf-today/images/articles/news/2023/12/9/omar-sultan-al-olama.ashx?h=450&iar=0&w=750&hash=AFBD30ABA516BA4FC31E51389B93B7F9"
 slug: "topnews/dubai-crown-prince-office-appoints-omar-sultan"

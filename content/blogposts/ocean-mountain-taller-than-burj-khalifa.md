@@ -2,7 +2,7 @@
 title: "A giant underwater mountain twice as tall as the world's tallest building"
 description: "Scientist have recently discovered a new under-water mountain that is twice the height of Burj Khalifa"
 date: "Nov 27th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://images.ladbible.com/resize?type=webp&quality=70&width=1440&fit=contain&gravity=null&url=https://images.ladbiblegroup.com/v3/assets/blt949ea8e16e463049/blt58c830230e9ebb00/6560f69a90f0a6040a3de57f/underwater-mountain-twice-size-worlds-tallest-building.png"
 slug: "ocean-mountain-taller-than-burj-khalifa"

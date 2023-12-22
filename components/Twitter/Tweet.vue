@@ -27,7 +27,7 @@ const props = defineProps({
                 <div class="x-handle-container">
                     <div class="x-avatar"></div>
                     <div class="x-account">
-                        <div class="x-name">So Fun Globe</div>
+                        <div class="x-name">Luxe Times</div>
                         <div class="x-handle">@funplanet</div>
                     </div>
                 </div>

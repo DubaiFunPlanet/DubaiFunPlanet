@@ -2,7 +2,7 @@
 title: "Dubai Eco-friendly Modes Of Transport"
 description: 'Dubai announces six measures to make your trip to COP28 easier, including extended metro hours and "pre-charged" Nol cards.'
 date: "Nov 21th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=1df516c5-8357-4a9a-8952-fa7ac5f82e62&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.81374&width=1500&height=844&x=1.0E-5&y=0.15371"
 slug: "dubai-cop28"

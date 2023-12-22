@@ -2,7 +2,7 @@
 title: "In 2023, Dubai experience population increase by 100,000"
 description: "Millionaires and billionaires, professionals and investors have been attracted to the city in recent years, creating a lot of jobs."
 date: "Dec 17th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://images.pexels.com/photos/3769312/pexels-photo-3769312.jpeg?auto=compress&cs=tinysrgb&w=1200"
 slug: "topnews/2023-population-increase-in-dubai"

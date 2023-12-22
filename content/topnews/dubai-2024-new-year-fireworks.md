@@ -2,7 +2,7 @@
 title: "Dubai, Abu Dhabi, RAK residents prepare for epic fireworks displays on New Year's Eve 2024"
 description: "There are no more tickets available to watch the NYE fireworks at Burj Khalifa at Burj Park in 2024"
 date: "Dec 9th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://imagevars.gulfnews.com/2023/01/01/Burj-Khalifa-_18569e6cdc1_large.jpg"
 slug: "topnews/dubai-2024-new-year-fireworks"

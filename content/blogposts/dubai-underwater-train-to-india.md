@@ -2,7 +2,7 @@
 title: "The UAE is building a 1,200-mile underwater train to India"
 description: "Dubai is reportedly building one of the fastest underwater train to India"
 date: "Nov 27th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://images.ladbible.com/resize?type=webp&quality=70&width=1296&fit=contain&gravity=null&url=https://images.ladbiblegroup.com/v3/assets/blt949ea8e16e463049/blt469305c63d692794/65211c273cec846077049d2d/bullet-train-train-nozomi-e13810.jpg"
 slug: "dubai-underwater-train-to-india"

@@ -46,7 +46,7 @@ export default ({
 
   app: {
     head: {
-      link: [{ rel: 'icon', type: 'image/png', href: '/sofunglobeicon.svg' }]
+      link: [{ rel: 'icon', type: 'image/png', href: '/lt.png' }]
     }
   },
 })

@@ -2,7 +2,7 @@
 title: "Dubai: This home has 5.5G Internet, not 4G or 5G. Here's how to obtain the fastest connection in the UAE."
 description: "Residents may experience breathtaking XR gaming, flawless 8K UHD streaming, and 3D movies with no glasses thanks to the new technology."
 date: "Nov 20th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=91596241-abec-5068-9c84-a7f22263cf79&function=fit&type=preview&source=false&q=75&maxsize=1500&scaleup=0"
 slug: "dubai-5.5g-powerhouse-villa"

@@ -2,7 +2,7 @@
 title: "Sign up guide: The UAE reportedly opens 2024 Hajj registration"
 description: "The first batch of pilgrims is expected to arrive in May next year, though Saudi Arabia opens its holy sites to the public in June 2024"
 date: "Dec 6th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "https://image.khaleejtimes.com/?uuid=ccaab4e8-14b4-5963-b350-11f5cb40cf8f&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.79365&width=1500&height=844&x=1.0E-5&y=0.09524"
 slug: "topnews/uae-open-2024-hajj-registration"

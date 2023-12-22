@@ -2,7 +2,7 @@
 title: "Is Burj Khalifa the tallest skyscrapper in the world?: The Evolution"
 description: "Dubai hosts the extremely gigantic and luxurious buildings in the world"
 date: "Nov 19th, 2023"
-author: "So Fun Globe"
+author: "Luxe Times"
 tags: ["Blog" , "Title"]
 thumbnail: "/burjK.jpg"
 slug: "dubai-burj-khalifa"
