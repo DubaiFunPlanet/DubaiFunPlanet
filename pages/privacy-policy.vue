@@ -41,7 +41,7 @@
         
         <h2>Google DoubleClick DART Cookie</h2>
         
-        <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+        <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <p class="w-[280px] overflow-auto"><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p></p>
         
         <h2>Our Advertising Partners</h2>
         
@@ -50,7 +50,7 @@
         <ul>
             <li>
                 <p>Google</p>
-                <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+                <p class="w-[280px] overflow-auto"><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
             </li>
         </ul>
         
@@ -113,6 +113,7 @@
 <style scoped>
 h2 {@apply post-header}
 p {@apply post-paragraph}
-ul {@apply list-outside list-disc}
+ul {@apply list-outside list-disc post-list pl-3}
+li {@appy post-list}
 a {@apply underline}
 </style>

@@ -78,7 +78,7 @@ body {@apply body-bg dark:black}
 
     /* TOP NEWS START*/
     .topnewscard {@apply rounded10 overflow-hidden relative bg-white/10 trans w-full lg:max-w-[503px] h-[280px] md:h-[320px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.04)]}
-    .topnewscover {@apply z-20 absolute top-0 left-0 w-full h-full bg-black/60 group-hover:bg-black/40 trans}
+    .topnewscover {@apply z-20 absolute top-0 left-0 w-full h-full bg-black/40 group-hover:bg-black/20 trans}
     .topnewstext {@apply z-30 absolute bottom-0 p-4 bg-black/70 dark:bg-black/0}
     .topnewsTitleText {@apply group-hover:underline cream-text text-[20px] line-clamp-2}
     .topnewsContentText {@apply white-text text-[14px] mt-[8px] mb-[12px] line-clamp-1}
@@ -160,5 +160,6 @@ body {@apply body-bg dark:black}
     .post-header {@apply dark-gold-text dark:cream-text text-[32px] py-[24px]}
     .post-paragraph {@apply black-text dark:white-text text-[18px] pb-[20px]}
     .photo-credit {@apply paper mb-10 w-full text-[14px] text-right dark-gold-text p-4 md:px-4}
+    .post-list {@apply black-text dark:white-text}
     /* postPage STOP */
 }
